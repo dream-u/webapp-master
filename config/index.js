@@ -29,7 +29,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
         '/service': {
-        target: 'http://192.168.50.242:9980/imagecloud',
+        target: 'http://192.168.50.241:9981/imagecloud',
         changeOrigin: true ,
        
         onProxyReq:function(proxyReq, req, res)
